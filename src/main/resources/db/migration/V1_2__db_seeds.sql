@@ -1,0 +1,22 @@
+INSERT INTO units (name, denotation, is_si_unit) VALUES ('grami', 'g', true);
+INSERT INTO units (name, denotation, is_si_unit, ratio_to_si) VALUES ('kilogrami', 'kg', true, 0.001);
+INSERT INTO units (name, denotation, is_si_unit) VALUES ('litri', 'l', true);
+INSERT INTO units (name, denotation, is_si_unit, ratio_to_si) VALUES ('mililitri', 'ml', true, 1000);
+INSERT INTO units (name, denotation, is_si_unit) VALUES ('gabali', 'gab.', false);
+INSERT INTO units (name, denotation, is_si_unit) VALUES ('ēdamkarote', 'ēd.k.', false);
+INSERT INTO units (name, denotation, is_si_unit) VALUES ('tējkarote', 'tējk.', false);
+INSERT INTO units (name, denotation, is_si_unit) VALUES ('sauja', 'sauja', false);
+INSERT INTO units (name, denotation, is_si_unit) VALUES ('šķipsna', 'šķipsna', false);
+
+INSERT INTO product_categories (name) VALUES ('Gaļa');
+INSERT INTO product_categories (name) VALUES ('Zivis');
+INSERT INTO product_categories (name) VALUES ('Graudaugu pr.');
+INSERT INTO product_categories (name) VALUES ('Piena pr.');
+INSERT INTO product_categories (name) VALUES ('Dārzeņi');
+INSERT INTO product_categories (name) VALUES ('Augļi');
+INSERT INTO product_categories (name) VALUES ('Sukādes');
+INSERT INTO product_categories (name) VALUES ('Rieksti');
+INSERT INTO product_categories (name) VALUES ('Saldumi');
+INSERT INTO product_categories (name) VALUES ('Garšvielas');
+INSERT INTO product_categories (name) VALUES ('Eļļas, Mērces u.c.');
+INSERT INTO product_categories (name) VALUES ('Citi');

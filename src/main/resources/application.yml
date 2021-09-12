@@ -1,0 +1,28 @@
+spring:
+  datasource:
+    url: "jdbc:postgresql://localhost:5432/finedining_db"
+    username: "postgres"
+    password: "root1234"
+    driverClassName: org.postgresql.Driver
+  jpa:
+    database-platform: "org.hibernate.dialect.PostgreSQLDialect"
+    generate-ddl: true
+    hibernate:
+      ddl-auto: none
+  servlet:
+    multipart:
+      max-file-size: 2MB
+      max-request-size: 2MB
+
+  flyway:
+    url: "jdbc:postgresql://localhost:5432/finedining_db"
+    user: "postgres"
+    password: "root1234"
+    locations: "classpath:db/migration"
+    enabled: true
+    sql-migration-prefix: "V"
+
+com.strods.finedining:
+  jwtSecret: "finediningSecretKey"
+  jwtExpirationMs: 86400000
+
