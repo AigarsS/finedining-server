@@ -2,7 +2,7 @@ spring:
   datasource:
     url: "jdbc:postgresql://localhost:5432/finedining_db"
     username: "postgres"
-    password: "root1234"
+    password: "masterchef2020"
     driverClassName: org.postgresql.Driver
   jpa:
     database-platform: "org.hibernate.dialect.PostgreSQLDialect"
@@ -17,7 +17,7 @@ spring:
   flyway:
     url: "jdbc:postgresql://localhost:5432/finedining_db"
     user: "postgres"
-    password: "root1234"
+    password: "masterchef2020"
     locations: "classpath:db/migration"
     enabled: true
     sql-migration-prefix: "V"
